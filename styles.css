@@ -1,0 +1,31 @@
+:root{font-family:Arial,sans-serif;color:#19344a;background:#f2f5f5;line-height:1.55}
+*{box-sizing:border-box}
+body{margin:0}
+header{background:#153d47;color:white;padding:40px max(5vw,20px)}
+header p{margin:4px 0}
+header p:first-child{font-size:12px;letter-spacing:2px}
+h1{font-size:42px;margin:8px 0}
+h2{font-size:23px;margin:0 0 18px}
+main{max-width:1080px;margin:24px auto;padding:0 20px}
+section{background:white;padding:26px;margin-bottom:22px;border:1px solid #dbe3e4;border-radius:10px}
+.grade{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+label{display:flex;flex-direction:column;font-weight:bold;font-size:14px;gap:7px}
+input,select{font:inherit;padding:11px;border:1px solid #a2b6bc;border-radius:5px;width:100%;min-width:0}
+input:focus,select:focus,button:focus-visible{outline:3px solid #e0b35d;outline-offset:2px}
+button{background:#17606a;color:white;border:0;padding:12px 18px;border-radius:5px;font-weight:bold;cursor:pointer}
+.acoes{display:flex;gap:12px;flex-wrap:wrap}
+#consultar{background:#e5efef;color:#153d47}
+.aviso,footer{font-size:13px;color:#526975}
+#mensagem{font-weight:bold}
+.erro{color:#a02532}
+.sucesso{color:#176342}
+article{border-top:1px solid #dbe3e4;padding:16px 0}
+article p{margin:4px 0}
+article button{margin-top:8px;background:#854350}
+footer{text-align:center;padding:20px}
+@media(max-width:650px){
+  .grade{grid-template-columns:1fr}
+  header{padding:28px 20px}
+  section{padding:20px}
+  h1{font-size:34px}
+}
